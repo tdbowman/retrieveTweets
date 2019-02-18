@@ -1,3 +1,4 @@
+<img style="float: right; width: 200px;" src="image/github-twitterAPI-logo.png">
 # retrieveTweets
 The first script allows someone to retrieve 100 tweets per call to Twitter API using a known tweet ID. It was developed in order to retreive the tweet object from the Twitter API using tweet IDs collected by Altmetric.com. The second script parses the JSON files and inserts the tweet object data into a relational MySQL database.
 
