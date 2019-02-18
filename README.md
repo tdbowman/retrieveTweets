@@ -15,7 +15,7 @@ You will need to:
 1. Execute the 'tables.sql' file in your MySQL database; this will create the tables you need for storing of tweet data
     1. The assumption is that you have tweet IDs to collect stored in the newly created 'altmetric_twitter_keys' table.
 2. Ensure you have all the files installed on a web server where you can execute PHP
-3. You can run `nohup php retrieve_100Tweets_usingTweetID.php > logFile.log &` from a terminal on the server when you are in the directory where this file is located.  The `nohup` command will allow you to run the script in the background.
+3. You can run `nohup php retrieve_100Tweets_usingTweetID.php > retrieveFile.log &` from a terminal on the server when you are in the directory where this file is located.  The `nohup` command will allow you to run the script in the background.
 4. Once the retrieval of your tweet objects is finished, you can run the parse file.
 5. You can run `nohup php parseJSON_tweets_from_TwitterAPI.php > parseFile.log &` from a terminal on the server when you are in the directory where this file is located. The `nohup` command will allow you to run the script in the background.
 6. If all goes well, you will have all your tweets parsed and entered into the relational MySQL db.
