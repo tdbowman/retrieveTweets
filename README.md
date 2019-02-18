@@ -1,87 +1,26 @@
 # retrieveTweets
-Use PHP to retrieve tweets from Twitter API with tweet ID
+The first script allows someone to retrieve 100 tweets per call to Twitter API using a known tweet ID. It was developed in order to retreive the tweet object from the Twitter API using tweet IDs collected by Altmetric.com. The second script parses the JSON files and inserts the tweet object data into a relational MySQL database.
 
 ## Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+To use the script, you will need to have both PHP 7.x and MySQL installed and running on a web server. You will also need to create a MySQL database with tables using the .sql files in the MySQL folder.
 
 ### Prerequisites
-
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
-
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
+- You need to have PHP v7.x installed.
+- You need to have the latest version of MySQL installed
+- You need Twitter API keys to access the Twitter API
+- You will need space to store the JSON files on the server (space size depends on number of tweets you are retrieving)
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [twitteroauth](https://github.com/abraham/twitteroauth) - Twitter Oauth
 
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Timothy D Bowman** - *Initial work* - [tdbowman.com](https://www.tdbowman.com/)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
 
