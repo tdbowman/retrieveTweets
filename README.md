@@ -1,7 +1,7 @@
 # retrieveTweets
 
 <img align="right" style="float: right; width: 200px;" src="image/github-twitterAPI-logo.png" />
-The first script allows someone to retrieve 100 tweets per call to Twitter API using a known tweet ID. It was developed in order to retreive the tweet object from the Twitter API using tweet IDs collected by Altmetric.com. The second script parses the JSON files and inserts the tweet object data into a relational MySQL database.
+The first script (retrieve_100Tweets_usingTweetID.php) allows someone to retrieve 100 tweets per call to Twitter API using a known tweet ID. It was developed in order to retreive the tweet object from the Twitter API using tweet IDs collected by Altmetric.com. The second script (parseJSON_tweets_from_TwitterAPI.php) parses the JSON files and inserts the tweet object data into a relational MySQL database.
 
 ## Getting Started
 To use the script, you will need to have both PHP 7.x and MySQL installed and running on a web server. You will also need to create a MySQL database with tables using the .sql files in the MySQL folder.
